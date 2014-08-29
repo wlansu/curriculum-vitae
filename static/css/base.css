@@ -1,0 +1,28 @@
+.white {
+    color: #f5f5f5;
+}
+
+.cv-background {
+    background: url("/static/img/background_dark.jpg") no-repeat 50% 50% fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+}
+
+.cv-header {
+    min-height: 100px;
+    height: 100px;
+}
+
+.cv-opaque {
+    background-color: rgba(62, 62, 61, 0.4);
+}
+
+.cv-close {
+    cursor: hand;
+}
+
+.cv-table-hover tbody tr:hover {
+  background: rgba(62, 62, 61, 0.6);
+}

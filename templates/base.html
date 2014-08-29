@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock title %}</title>
+    <link rel="stylesheet" href="/static/css/uikit.almost-flat.min.css" />
+    <link rel="stylesheet" href="/static/css/base.css" />
+</head>
+<body class="cv-background white">
+    <header>
+        {% include "header.html" %}
+    </header>
+
+    <div class="uk-article-divider"></div>
+
+    <div>
+        {% block content %}{% endblock content %}
+    </div>
+
+<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/static/js/jquery-2.1.1.min.js">\x3C/script>')</script>
+
+<!-- Uikit -->
+<script src="/static/js/uikit.min.js"></script>
+
+<!-- App js files -->
+<script src="/static/js/main.js"></script>
+
+<!-- Additional js -->
+{% block extra_js %}{% endblock extra_js %}
+</body>
+</html>

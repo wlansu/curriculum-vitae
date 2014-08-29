@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block title %}Page Not Found{% endblock %}
+
+{% block content %}
+<h1>404</h1>
+<p>This is not the page you're looking for.</p>
+<p>Why don't you go <a href="{{ url_for('home') }}">home</a> and rethink your life?</p>
+{% endblock content %}

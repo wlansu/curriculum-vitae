@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% block title %}Wouter Lansu's Curriculum Vitae{% endblock title %}
+
+{% block content %}
+    <div class="uk-container uk-container-center cv-opaque">
+        <div class="uk-grid uk-grid-width-1-1">
+            <div class="uk-grid-divider"></div>
+
+            <div>
+                {% include "personal_details.html" %}
+            </div>
+
+            <div class="uk-grid-divider"></div>
+
+            <div>
+                {% include "motivation.html" %}
+            </div>
+
+            <div class="uk-grid-divider"></div>
+
+            <div>
+                {% include "experience.html" %}
+            </div>
+
+            <div class="uk-grid-divider"></div>
+
+            <div>
+                {% include "education.html" %}
+            </div>
+
+            <div class="uk-grid-divider"></div>
+
+            <div>
+                {% include "strengths.html" %}
+            </div>
+
+            <div class="uk-grid-divider"></div>
+
+            <div>
+                {% include "repositories.html" %}
+            </div>
+        </div>
+    </div>
+{% endblock content %}
