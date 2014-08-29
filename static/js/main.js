@@ -1,4 +1,4 @@
-/*global $, document, console */
+/*global $, document */
 
 function closeContainer(element, button) {
     "use strict";
@@ -6,8 +6,3 @@ function closeContainer(element, button) {
     element.toggleClass("uk-hidden");
     button.toggleClass("uk-icon-plus-square-o uk-icon-minus-square-o");
 }
-
-$(document).ready(function () {
-    "use strict";
-
-});
