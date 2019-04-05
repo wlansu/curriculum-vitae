@@ -1,7 +1,35 @@
 <h3 class="white">Experience <span class="uk-float-right uk-icon-minus-square-o" onclick="closeContainer($('#experience'), $(this))"></span></h3>
 <hr class="uk-article-divider" />
 <div id="experience">
-    <h4 class="white">2014 - present Paylogic, Groningen, Software Engineer <span class="uk-float-right uk-icon-minus-square-o" onclick="closeContainer($('#paylogic'), $(this))"></span></h4>
+	<h4 class="white">2016 - present Zupr, Groningen, Senior Software Engineer/Scrum Master <span class="uk-float-right
+	uk-icon-minus-square-o" onclick="closeContainer($('#zupr'), $(this))"></span></h4>
+    <div id="zupr" class="uk-grid">
+        <div class="uk-width-1-2">
+            <ul>
+                <li>Python, React</li>
+                <li>Django</li>
+                <li>Elasticsearch</li>
+                <li>Postgresql</li>
+            </ul>
+            <p>Zupr is a startup attempting to connect offline retailers with online consumers. This way local
+				shops can still reach a large audience without having to maintain their own custom webshop.</p>
+        </div>
+        <div class="uk-width-1-2">
+            <h4 class="white">Job details</h4>
+            <p>As a software engineer at Zupr my role is very free flowing. Together with my team members and
+				Project Manager I decide what goals to strive for every sprint. Maintenance is one
+				third of the sprint, refining and improving the product is what creates a maintainable, future proof, project.</p>
+
+			<p>Lately I've been focusing on importing large product feeds into our PostgreSQL and ElasticSearch
+				databases. This has been quite the trip into Big Data territory, running the imports through Celery to make it scalable
+				and dabbling in asyncio.</p>
+        </div>
+    </div>
+
+    <hr class="uk-article-divider" />
+
+    <h4 class="white">2014 - 2016 Paylogic, Groningen, Software Engineer <span class="uk-float-right
+    uk-icon-minus-square-o" onclick="closeContainer($('#paylogic'), $(this))"></span></h4>
     <div id="paylogic" class="uk-grid">
         <div class="uk-width-1-2">
             <ul>
@@ -11,7 +39,7 @@
                 <li>MySQL and Postgresql databases</li>
                 <li><a target="_blank" href="http://pytest.org/latest/">Pytest</a> testing framework</li>
             </ul>
-            <p>Paylogic is an online ticketing service which uses a high available queue to handle tens of thousands
+            <p>Paylogic is an online ticketing service which uses a highly available queue to handle tens of thousands
             of ticket sales per event. Merchants can configure their own events in the custom built backend.</p>
         </div>
         <div class="uk-width-1-2">
